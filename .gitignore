@@ -1,0 +1,44 @@
+# Data, model artifacts and run outputs must not enter the source repository.
+/data/
+/outputs/
+/output/
+/runs/
+/unified_runs/
+/validation/
+/dist/
+/build/
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.npy.gz
+*.zip
+*.log
+*.csv
+*.tsv
+*.pdf
+*.png
+*.jpg
+*.jpeg
+# Python and local tooling
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+# Credentials and local settings
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
